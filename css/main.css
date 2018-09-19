@@ -1,0 +1,73 @@
+.header{
+	position: relative;	 
+    background-position: 100% 94%;
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: 73% 124%;
+}
+
+.svg-abs{
+	position: absolute;
+    /* top: 0; */
+    bottom: 0;
+    /* left: 0; */
+    right: 0px;
+}
+.custom-container{
+	width: 1349px!Important;
+	margin:0 auto;
+}
+.header-div .logo{
+	width: 16%;
+	    margin-left: 4%;
+    display: -webkit-inline-box;	
+}
+.header-div .nav{
+	    width: 79%;
+    display: -webkit-inline-box;
+}
+.header-div .nav .nav-element{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;	
+}
+
+.header-div .nav .nav-element .items{
+	list-style-type: none;
+    display: flex;
+    padding-left: 0px
+}
+.header-div .nav .nav-element .items li{
+	    padding: 37px;
+	    cursor: pointer;
+
+}
+.header-div .nav .nav-element .items li:hover{
+	color: red;
+}
+.middle-header-text{
+   height: 600px;
+    display: flex;
+    align-items: center;
+
+}
+.middle-header-text .text-inside{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 116px;
+}
+
+.middle-header-text .text-inside h1{
+	       width: 67%;
+    display: -webkit-inline-box;
+    margin-left: -71px;
+    padding:  0px 34px;
+    margin-top: 71px;
+    line-height: 1.3;
+} 
+.middle-header-text .text-inside h4{
+    width: 58%;
+    display: -webkit-inline-box;
+    margin-left: -79px;
+}
