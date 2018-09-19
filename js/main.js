@@ -24,7 +24,7 @@
 			anime.remove(this.DOM.bgshape);
 			anime({
 				targets: this.DOM.bgshape,
-				duration: 3000,
+				duration: 1000,
 				easing: 'easeOutQuad',
 				d: el.dataset.shape
 			});
